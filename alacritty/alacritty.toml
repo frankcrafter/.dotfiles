@@ -1,0 +1,58 @@
+live_config_reload = true
+
+[colors]
+draw_bold_text_with_bright_colors = true
+
+# Default colors
+[colors.primary]
+background = '#111827' #color.base04
+foreground = '#d1d5db' #color.fg
+
+# Normal colors
+[colors.normal]
+black   = '#6b7280' #color.base04
+red     = '#fca5a5' #color.red
+green   = '#b1e3ad' #color.green
+yellow  = '#fbc19d' #color.yellow
+blue    = '#bae6fd' #color.blue
+magenta = '#957fb8' #color.magenta
+cyan    = '#ddd6fe' #color.cyan
+white   = '#a5f3fc' #color.base2
+
+# Bright colors
+[colors.bright]
+black   = '#6b7280' #color.base03
+red     = '#fca5a5' #color.red300
+green   = '#b1e3ad' #color.green300
+yellow  = '#fbc19d' #color.yellow300
+blue    = '#bae6fd' #color.blue300
+magenta = '#938aa9' #color.magenta300
+cyan    = '#ddd6fe' #color.cyan300
+white   = '#a5f3fc' #color.base3
+
+[font]
+size = 9
+
+[font.normal]
+family = "IntoneMonoNerdFont"
+style = "Regular"
+
+[font.bold]
+family = "IntoneMonoNerdFont"
+style = "Bold"
+
+[font.bold_italic]
+family = "IntoneMonoNerdFont"
+style = "Bold Italic"
+
+[font.italic]
+family = "IntoneMonoNerdFont"
+style = "Italic"
+
+[scrolling]
+history = 10000
+multiplier = 10
+
+[window.padding]
+x = 5
+y = 5

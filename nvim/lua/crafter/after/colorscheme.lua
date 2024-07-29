@@ -1,0 +1,51 @@
+--require("nvim-tundra").setup({
+--	transparent_background = true,
+--	dim_inactive_windows = {
+--		enabled = false,
+--		color = nil,
+--	},
+--	sidebars = {
+--		enabled = false,
+--		color = nil,
+--	},
+--	editor = {
+--		search = {},
+--		substitute = {},
+--	},
+--	syntax = {
+--		booleans = { bold = true, italic = true },
+--		comments = { bold = false, italic = true },
+--		conditionals = {},
+--		constants = { bold = true },
+--		fields = {},
+--		functions = {},
+--		keywords = {},
+--		loops = {},
+--		numbers = { bold = true },
+--		operators = { bold = true },
+--		punctuation = {},
+--		strings = {},
+--		types = { italic = true },
+--	},
+--	diagnostics = {
+--		errors = {},
+--		warnings = {},
+--		information = {},
+--		hints = {},
+--	},
+--	plugins = {
+--		lsp = true,
+--		semantic_tokens = true,
+--		treesitter = true,
+--		nvimtree = true,
+--		cmp = true,
+--	},
+--	overwrite = {
+--		colors = {},
+--		highlights = {},
+--	},
+--})
+--
+--vim.g.tundra_biome = "arctic" -- 'arctic' or 'jungle'
+--vim.opt.background = "dark"
+vim.cmd("colorscheme tundra")
